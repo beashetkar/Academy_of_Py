@@ -28,8 +28,6 @@ numpy==1.14.2
 
 1) District Summary
 
-The below table shows a high level snapshot of the district's key metrics.
-
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
