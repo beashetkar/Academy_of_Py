@@ -9,19 +9,19 @@ Datasets: schools_complete.csv and students_complete.csv
 
 These are the following requirements:
 
-ipykernel==4.8.2
-ipython==6.2.1
-ipython-genutils==0.2.0
-jupyter-client==5.2.3
-jupyter-core==4.4.0
-jupyterlab==0.31.12
-jupyterlab-launcher==0.10.5
-pandas==0.22.0
-pandocfilters==1.4.2
-pipreqs==0.4.9
-requests==2.18.4
-requests-oauthlib==0.8.0
-numpy==1.14.2
+* ipykernel==4.8.2
+* ipython==6.2.1
+* ipython-genutils==0.2.0
+* jupyter-client==5.2.3
+* jupyter-core==4.4.0
+* jupyterlab==0.31.12
+* jupyterlab-launcher==0.10.5
+* pandas==0.22.0
+* pandocfilters==1.4.2
+* pipreqs==0.4.9
+* requests==2.18.4
+* requests-oauthlib==0.8.0
+* numpy==1.14.2
 
 ## School Performance Insights
 
