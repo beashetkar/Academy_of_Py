@@ -9,6 +9,7 @@ Datasets: schools_complete.csv and students_complete.csv
 
 These are the following requirements:
 
+* Python 3.6.4 :: Anaconda, Inc.
 * ipykernel==4.8.2
 * ipython==6.2.1
 * ipython-genutils==0.2.0
