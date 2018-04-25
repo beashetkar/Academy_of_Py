@@ -1,16 +1,32 @@
 
 # Academy of Py
 
-As a first task, you've been asked to analyze the district-wide standardized test results. You'll be given access to every student's math and reading scores, as well as various information on the schools they attend. Your responsibility is to aggregate the data to and showcase obvious trends in school performance.
+![Academy](images/education.jpg)    
 
-```python
-# Dependencies
-import pandas as pd
-import numpy as np
-import os
-```
+The goal of this application is to analyze the district-wide standardized test results and bring insights aboyt school performance. The dataset contains information about every student's math and reading scores, as well as various information on the schools they attend. 
 
-### District Summary
+Datasets: schools_complete.csv and students_complete.csv 
+
+These are the following requirements:
+
+ipykernel==4.8.2
+ipython==6.2.1
+ipython-genutils==0.2.0
+jupyter-client==5.2.3
+jupyter-core==4.4.0
+jupyterlab==0.31.12
+jupyterlab-launcher==0.10.5
+pandas==0.22.0
+pandocfilters==1.4.2
+pipreqs==0.4.9
+requests==2.18.4
+requests-oauthlib==0.8.0
+numpy==1.14.2
+
+## School Performance Insights
+
+
+1) District Summary
 
 The below table shows a high level snapshot of the district's key metrics.
 
@@ -45,7 +61,8 @@ The below table shows a high level snapshot of the district's key metrics.
 </div>
 
 
-### School Summary
+
+2) School Summary
 
 The following overview table summarizes key metrics about each school.
 
@@ -261,10 +278,8 @@ The following overview table summarizes key metrics about each school.
 </table>
 
 
-### Top Performing Schools (By Passing Rate)
 
-Top 5 performing schools based on Overall Passing Rate.
-
+3) Top 5 Performing Schools (By Passing Rate)
 
 <table border="1" class="dataframe">
   <thead>
@@ -358,10 +373,9 @@ Top 5 performing schools based on Overall Passing Rate.
 </table>
 
 
-### Bottom Performing Schools (By Passing Rate)
 
-Top 5 performing schools based on Overall Passing Rate.
 
+4) Bottom 5 Performing Schools (By Passing Rate)
 
 <table border="1" class="dataframe">
   <thead>
@@ -455,9 +469,7 @@ Top 5 performing schools based on Overall Passing Rate.
 </table>
 
 
-###  Math Scores by Grade 
-
-The following table lists the average Math Score for students of each grade level (9th, 10th, 11th, 12th) at each school.
+5) Average Math Scores by Grade for students of each grade level (9th, 10th, 11th, 12th) at each school.
 
 <table border="1" class="dataframe">
   <thead>
@@ -579,10 +591,9 @@ The following table lists the average Math Score for students of each grade leve
 </table>
 </div>
 
-### Reading Scores by Grade
 
-The below table shows the average Reading Score for students of each grade level (9th, 10th, 11th, 12th) at each school.
 
+6)  Reading Scores by Grade for students of each grade level (9th, 10th, 11th, 12th) at each school.
 
 <table border="1" class="dataframe">
   <thead>
@@ -712,10 +723,8 @@ The below table shows the average Reading Score for students of each grade level
 </div>
 
 
-### Scores by School Spending
 
-Create a table that breaks down school performances based on average Spending Ranges (Per Student). 
-Use 4 reasonable bins to group school spending. 
+7) School performances based on average Spending Ranges (Per Student). 
 
 <table border="1" class="dataframe">
   <thead>
@@ -773,10 +782,9 @@ Use 4 reasonable bins to group school spending.
 </table>
 </div>
 
-### Scores by School Size
 
-Repeat the above breakdown, but this time group schools based on a reasonable approximation of school size (Small, Medium, Large).
 
+8) School performances based on a reasonable approximation of school size (Small, Medium, Large).
 
 <table border="1" class="dataframe">
   <thead>
@@ -826,10 +834,9 @@ Repeat the above breakdown, but this time group schools based on a reasonable ap
 </table>
 </div>
 
-### Scores by School Type
 
-Repeat the above breakdown, but this time group schools based on school type (Charter vs. District).
 
+9) School performance based on on school type (Charter vs. District).
 
 <table border="1" class="dataframe">
   <thead>
